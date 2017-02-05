@@ -12,7 +12,7 @@ numUno=parseInt (numUno);
 numDos=document.getElementById("numeroDos").value;
 numDos=parseInt(numDos);
 resultado= numUno+numDos;
-alert("la suma es:" +resultado)
+alert("la Suma es:" +resultado)
 }
 
 function restar()
@@ -25,7 +25,7 @@ numUno=parseInt (numUno);
 numDos=document.getElementById("numeroDos").value;
 numDos=parseInt(numDos);
 resultado= numUno-numDos;
-alert("la suma es:" +resultado)
+alert("la Resta es:" +resultado)
 
 }
 
@@ -39,7 +39,7 @@ numUno=parseInt (numUno);
 numDos=document.getElementById("numeroDos").value;
 numDos=parseInt(numDos);
 resultado= numUno*numDos;
-alert("la suma es: " +resultado)
+alert("la Multiplicacion es: " +resultado)
 
 }
 
@@ -53,7 +53,8 @@ numUno=parseInt (numUno);
 numDos=document.getElementById("numeroDos").value;
 numDos=parseInt(numDos);
 resultado= numUno/numDos;
-alert("la suma es:" +resultado)
+alert("la Division es:" +resultado)
 
 }
 
+ 
