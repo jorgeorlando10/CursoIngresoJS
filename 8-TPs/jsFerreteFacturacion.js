@@ -47,7 +47,7 @@ function PrecioFinal ()
 	preDos=parseInt(preDos);
 	preTres=document.getElementById("PrecioTres").value;
 	preTres=parseInt(preTres);
-	resultado=(preUno+preDos+preTres)/1.21*0.21;
+	resultado=(preUno+preDos+preTres)*1.21;
 	alert("el precio final es:"+resultado)
 
 }

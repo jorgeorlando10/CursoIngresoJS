@@ -21,22 +21,34 @@ function Rectangulo ()
 }
 function Circulo () 
 {
-	
-	var larTerreno;
-	var anchoTerreno;
-	var radioTerreno
 	var resultado;
-	larTerreno=document.getElementById("Largo").value;
-	larTerreno=parseInt(larTerreno);
-	anchoTerreno=document.getElementById("Ancho").value;
-	anchoTerreno=parseInt(anchoTerreno);
-	radioTerreno=document.getElementById("Radio").value;
-	radioTerreno=parseInt(radioTerreno);
-	
-	resultado=(larTerreno+anchoTerreno)*2/2*
-	alert("el circulo de alambre es:"+resultado)
+    var circulo;
+   
+   circulo=document.getElementById("Radio").value;
+  circulo=parseInt(circulo);
+ 
+   resultado= Math.floor(Math.PI * (circulo*2))*3;
+ 
+   alert("Se necesitan "+resultado +" metros de alambre")
 }
 function Materiales () 
 {
 	
+var resultado;
+  var resultado2;
+  var largo;
+  var ancho;
+
+        largo=document.getElementById("Largo").value;
+      largo=parseInt(largo);
+  
+        ancho=document.getElementById("Ancho").value;
+        ancho=parseInt(ancho);
+
+         resultado= largo*ancho*2;
+        resultado2= largo*ancho*3;
+        alert("Se necesitan " +resultado + " bolsas de cemento y "+resultado2 +" bolsas de cal")
+ 
+
+
 }
