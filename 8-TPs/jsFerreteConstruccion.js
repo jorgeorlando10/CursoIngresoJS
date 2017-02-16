@@ -9,14 +9,13 @@ function Rectangulo ()
 
 	var larTerreno;
 	var anchoTerreno;
-	
 	var resultado;
 	larTerreno=document.getElementById("Largo").value;
 	larTerreno=parseInt(larTerreno);
 	anchoTerreno=document.getElementById("Ancho").value;
 	anchoTerreno=parseInt(anchoTerreno);
 	
-	resultado=(larTerreno+anchoTerreno)*2;
+	resultado=(larTerreno+anchoTerreno)*2
 	alert("el rectangulo de alambre es:"+resultado)
 }
 function Circulo () 

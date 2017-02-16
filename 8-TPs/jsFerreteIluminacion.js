@@ -15,38 +15,51 @@ function CalcularPrecio ()
  	var precioDescuento;
  	var precioBruto;
 
- 	precioBruto=cantidad*30;
+ 	precioBruto=cantidad*35;
 
  	cantidad=document.getElementById("Cantidad").value;
  	document.getElementById("precioDescuento").value=precioDescuento;
 
-if (cantidad==6
-	precioConDEscuento=precioBruto*0.5;
+		if (cantidad==6)
+		precioConDescuento=precioBruto*0.5;
 
 	{
-else
+		else
 	}
-if(cantidad==5)
+		if(cantidad==5)
  	{
- 		switch(marca)
- 		case("ArgentinaLuz")
+ 		switch (marca){
+ 		case "ArgentinaLuz":
  		
-
- 	  
- 		precioConDEscuento=precioBruto*0.5;
+		precioConDEscuento=precioBruto*0.4;
 		break
  	}
- else
- if(cantidad==4)
+ 		else
+ 		if(cantidad==4)
  
  	{
- 		switch(marca)
- 		case("ArgentinaLuz")
- 		
-
- 	  
+ 		switch(marca){
+ 		case"ArgentinaLuz"
+ 		case"felipeLamparas"
  		precioConDEscuento=precioBruto*0.25;
 		break
+	}
+ 		if(cantidad==3)
+ 
+ 	{
+ 		switch(marca){
+ 		case"ArgentinaLuz"
+ 		
+ 		precioConDEscuento=precioBruto*0.15;
+ 	}
+		else
+		
+		switch(marca){
+ 		case"pelipeLamparas"
+ 		precioConDescuento=precioBruto*0.10;
+
+ 	  
+ 		
 {
 
  	}
