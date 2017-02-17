@@ -1,17 +1,19 @@
 function Mostrar()
 {
 	
-	var contador=1;
+	
+ var contador=0;
 	while(contador<10)
 	{
+		
+	alert(contador);
 	contador=contador+1;
 
-	//alert('iteración while');
-	document.white("<BR>numero"+contador);
+	
+	
+	}	
 	
 
-
-	}
 
 
 }//FIN DE LA FUNCIÓN
