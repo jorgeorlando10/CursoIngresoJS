@@ -33,18 +33,27 @@ while(edad>0||edad <100)
 	contador=++1;
 	nombre=prompt("por favor ingrese nombre")
 
-	sexo=prompt("ingrese sexo")
-	sexo=parseInt(sexo);
+	
 	}
 
+	sexo=promtp("ingrese su sexo")
 while(sexo!="f" &&!="m")
 	{
-	sexo=prompt("ingrese sexo")
-	sexo=parseInt(sexo);
+		sexo=promtp("Error,ingrese su sexo");
+		
+	}
 
-while(nota>0 && edad <4)
+	nota=promp("ERROR ingrese su nota");
+	 nota=parseInt(nota);
+
+}
+if(nota>5)
 	{
-	 nota=promp("ingrese nota")	
+		aprobados=aprobados+1
+	}
+acumuladorDeNotas=acumuladorDeNotas+notas;
+//
+	 nota=promp("ingrese su nota");
 	 nota=parseInt(nota);
 	}	
 
@@ -60,35 +69,34 @@ if (contador==1);
 	nombreDelMayor=nombre
 	nombreDelDiez=nombre
 
-
 	}
 else
 	{
 
- if(edad>maximo)
- {
-   	maximo=edad;
-	nombreDelMayor=nombre
+ if(edad>minimo)
+	 {
+   	minimo=edad;
+	nombreDelMenor=nombre
 	}
-if  (edad<minimo)
+else (edad<maximo)
 	{
-	minimo=edad;
-	nombreDelMayor=nombre
+	maximo=edad;
+	nombreDelMayor=nombre;
 	}
 
 if (contador==1)
 	{	
 		notaMinima=nota;
-		sexoMnimo=sexo
+		sexoMnimo=sexo;
 	}
 else
-	}
-if(notaMinima=nota)
+	{
+if 	(nota<notaMinima)
 	{
 		notaMinima=nota;
 		sexoMinimo=sexo;
 	}
-	if
+	
 
 
 
